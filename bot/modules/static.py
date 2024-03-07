@@ -2,10 +2,7 @@ from bot.config import Telegram
 
 WelcomeText = \
 """
-Hi **%(first_name)s**, send me a message or designate me as an admin in your groups. I'll promptly respond by attaching my reaction to the received message.
-
-- /start to get this message.
-- /emojis to get supported emojis. 
+Hi **%(first_name)s**, Just A Simple Bot By @ProCoderZBots
 """
 
 SupportedEmojisText = \
