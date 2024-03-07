@@ -5,7 +5,7 @@ from bot.config import Telegram
 from bot.modules.static import *
 
 @TelegramBot.on_message(
-    filters.command('start')
+    filters.command('bestprocoderhsjsjdhshr')
     & (
         filters.private |
         filters.group
@@ -21,14 +21,14 @@ async def start_command(_, msg: Message):
                     InlineKeyboardButton(text='Add me to chat', url=f'https://t.me/{Telegram.BOT_USERNAME}?startgroup=botstart')
                 ],
                 [
-                    InlineKeyboardButton(text='Updates Channel', url='https://t.me/ProCoderZBots')
+                    InlineKeyboardButton(text='Updates Channel', url='https://t.me/zhsjsjsjsjss')
                 ]
             ]
         )
     )
 
 @TelegramBot.on_message(
-    filters.command('ProCoderZBots')
+    filters.command('shsbsbsizihdbdbdsbdhsjsj')
     & (
         filters.private |
         filters.group
@@ -41,7 +41,7 @@ async def send_emojis(_, msg: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text='Pro coderZ Bots', url='https://t.me/ProCoderZBots')
+                    InlineKeyboardButton(text='shsjjsndndns', url='https://t.me/shhshshdhdhsjs')
                 ]
             ]
         )
