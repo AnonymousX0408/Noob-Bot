@@ -7,7 +7,7 @@ class Telegram:
     BOT_USERNAME = env.get("TG_BOT_USERNAME", "DrReactBot")
     EMOJIS = env.get("TG_EMOJIS", [
         "👍", "❤", "🔥", 
-        "🥰", "😍", "😘", "💖", "💕", "🎉", "🥀",
+        "🥰", "😍", "😘", "💖", "💕", "🎉", "🥀"
     ])
 
 LOGGER_CONFIG_JSON = {
