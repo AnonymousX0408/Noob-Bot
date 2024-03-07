@@ -5,7 +5,7 @@ class Telegram:
     API_HASH = env.get("TG_API_HASH", "xyz")
     BOT_TOKEN = env.get("TG_BOT_TOKEN", "abc")
     BOT_USERNAME = env.get("TG_BOT_USERNAME", "DrReactBot")
-    EMOJIS = [
+    EMOJIS = env.get("TG_EMOJIS", [
         "👍", "👎", "❤", "🔥", 
         "🥰", "👏", "😁", "🤔",
         "🤯", "😱", "🤬", "😢",
@@ -25,7 +25,7 @@ class Telegram:
         "😘", "💊", "🙊", "😎",
         "👾", "🤷‍♂", "🤷", "🤷‍♀",
         "😡"
-    ]
+    ])
 
 LOGGER_CONFIG_JSON = {
     'version': 1,
@@ -56,4 +56,4 @@ LOGGER_CONFIG_JSON = {
             'handlers': ['file_handler', 'stream_handler']
         }
     }
-}
+    }
